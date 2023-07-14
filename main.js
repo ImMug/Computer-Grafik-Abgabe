@@ -70,6 +70,18 @@ loader.load("./model/prayingman/scene.gltf", function (gltf) {
   scene.add(gltf.scene);
 });
 
+
+loader.load('./model/skybox/scene.gltf', function(gltf) {
+    const skybox = gltf.scene;
+    
+    skybox.position.set(0, 0, 0);
+
+    skybox.scale.set(10, 10, 10);
+
+    scene.add(skybox);
+});
+
+
 let shiba;
 let shibaPos = new THREE.Vector3();
 loader.load("./model/shiba/scene.gltf", function (gltf) {
