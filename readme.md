@@ -9,6 +9,16 @@ Dieses Projekt ist eine kleine 3D-Szene, die mit Three.js erstellt wurde. Ich er
 * Kamerasteuerung mit OrbitControls
 * Szenen- und Modell-Animationen
 
+## Herausforderungen:
+
+
+Die Entwicklung eines Projekts stellte für mich eine besonders herausfordernde Aufgabe dar. Anfangs war ich bestrebt, das Projekt mit WebGL nachzubilden. Nach Vollendung dieser Arbeit wurde mir allerdings bewusst, dass diese Aufgabe wohl zu simpel gewesen sein könnte. Der Vergleich mit WebGL ließ erkennen, dass meine Ausführung deutlich einfacher gestaltet war, was mich zu der Erkenntnis führte, dass sie wahrscheinlich nicht ausreichend sein würde.
+
+Mein ursprünglicher Plan sah vor, einen Phong-Shader auf das Baby anzuwenden. Dieser ambitionierte Versuch scheiterte jedoch an den Beschränkungen der genutzten WebGL-Version. Die Komplexität und die Schwierigkeiten, die sich bei der Implementierung dieses Shaders auftaten, überstiegen meine Erwartungen bei weitem. Es ergab sich ein Problem bei der Initialisierung eines Codeabschnitts zu Beginn des Prozesses, was zur Unfähigkeit der Version führte, korrekt zu funktionieren. Darüber hinaus gab es auch Missverständnisse bei der Übergabe, was mich dazu veranlasste, den Einsatz des Phong-Shaders aufzugeben.
+
+Angesichts dieser Umstände entschied ich mich für einen alternativen Ansatz. Ich konzentrierte meine Bemühungen auf die Arbeit mit Partikeleffekten, Schatten und verschiedenen Modellen. Dies ermöglichte es mir, meinen Fokus auf Aspekte zu legen, die sowohl interessant als auch durchführbar waren. Durch diese Neuausrichtung konnte ich das Projekt erfolgreich zu einem befriedigenden Abschluss bringen.
+
+
 ## Projekt-Setup und Installation
 
 Stellen Sie zunächst sicher, dass Node.js auf Ihrem lokalen Rechner installiert ist. Wenn nicht, laden Sie es von [hier](https://nodejs.org/en/download/) herunter.
